@@ -1,0 +1,16 @@
+[project]
+name = "dspy-rlm-sandbox-template"
+version = "0.1.0"
+description = "Local-first DSPy Recursive Language Model with a Deno/Pyodide sandbox"
+requires-python = ">=3.10"
+dependencies = [
+  "dspy[deno]>=3.0.0",
+  "python-dotenv>=1.0.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

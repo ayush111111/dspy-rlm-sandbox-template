@@ -1,0 +1,6 @@
+2026-08-31T09:12:00Z INFO api request latency recovered
+2026-08-31T09:18:00Z CRITICAL payments database connection pool exhausted
+2026-08-31T09:21:00Z WARNING checkout retries increasing
+2026-08-31T10:02:00Z CRITICAL payments database connection pool exhausted
+2026-08-31T10:14:00Z INFO payments failover completed
+2026-08-31T11:03:00Z ERROR search index lag above threshold
